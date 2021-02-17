@@ -1,58 +1,58 @@
-body{
-  text-align:center;
-  margin:0;
-  background:linear-gradient(#FFE082 0% , #4CAF50 100%);
-  background-repeat:no-repeat;
+body {
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(#FFE082 0%, #4CAF50 100%);
+    background-repeat: no-repeat;
 }
 
-img{
-  width: 140px;
-  height:150px;
-  border-radius :50%;
+img {
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-#intro{
-  text-align:center;
-  padding-top:100px;
+#intro {
+    text-align: center;
+    padding-top: 100px;
 }
 
-h1{
-  text-shadow: 2px 2px #AD1457;
-  font-size:30px;
+h1 {
+    text-shadow: 2px 2px #AD1457;
+    font-size: 30px;
 }
 
-#s{
-    font-family:  'Courgette', cursive;
+#s {
+    font-family: 'Courgette', cursive;
     font-size: 50px;
-    
+
 }
 
-#descrip{
-  font-size:18px;
-  text-align: center;
-  padding-bottom:200px;
-  font-family:serif;
+#descrip {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 200px;
+    font-family: serif;
 }
 
-.line{
-  background-color:black;
-  width:100px;
-  height: 6px;
-  margin: 80px auto;
+.line {
+    background-color: black;
+    width: 100px;
+    height: 6px;
+    margin: 80px auto;
 }
 
-.menu{
+.menu {
     list-style: none;
     font-family: monospace;
     top: 10px;
     right: 30px;
-    cursor: pointer; 
-    
+    cursor: pointer;
+
     position: absolute;
 }
 
-.link{
-    float:left;
+.link {
+    float: left;
     font-size: 20px;
     color: darkgoldenrod;
     padding-top: 5px;
@@ -61,6 +61,23 @@ h1{
     padding-right: 9px;
 }
 
-.link:hover{
+.link:hover {
     background-color: darkcyan;
+}
+
+.pic {
+    width: 400px;
+    height: 400px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.a1:hover {
+    color: darkred;
+}
+
+a {
+    text-decoration: none;
 }
