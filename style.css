@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
 }
 
-img {
+#image {
     width: 140px;
     height: 150px;
     border-radius: 50%;
@@ -80,4 +80,14 @@ html {
 
 a {
     text-decoration: none;
+}
+
+.ph{
+    width: 400px;
+    height: 400px;
+    transition: transform 0.2s;
+}
+
+.ph:hover{
+    transform: scale(0.9);
 }
