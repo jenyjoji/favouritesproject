@@ -44,15 +44,16 @@ h1 {
 .menu {
     list-style: none;
     font-family: monospace;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+    margin-top: 0px;
     cursor: pointer;
-
-    position: absolute;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 .link {
-    float: left;
+   display: inline;
     font-size: 20px;
     color: darkgoldenrod;
     padding-top: 5px;
@@ -62,7 +63,9 @@ h1 {
 }
 
 .link:hover {
-    background-color: darkcyan;
+    background-color:aquamarine;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 .pic {
@@ -79,7 +82,8 @@ html {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: blue;
 }
 
 .ph{
@@ -90,4 +94,23 @@ a {
 
 .ph:hover{
     transform: scale(0.9);
+}
+
+#contact{
+    width: 100%;
+    background-color: firebrick;
+}
+
+#contact iframe{
+    width: 90%;
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+#contact a{
+    color: white! important;
+    text-decoration: none! important;
+    
 }
